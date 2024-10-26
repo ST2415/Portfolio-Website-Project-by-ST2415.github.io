@@ -1,0 +1,54 @@
+.genre{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 100px;
+}
+
+.DA-genre{
+    position: absolute;
+    width: 480px;
+    height: 3200px;
+    right: 0px;
+    margin-bottom: 500px;
+}
+
+.ANI-genre{
+    position: absolute;
+    width: 480px;
+    height: 250px;
+    top: 3650px;
+    right: 0px;
+    margin-bottom: 500px;
+}
+
+.DW-genre{
+    position: absolute;
+    width: 480px;
+    top: 4300px;
+    height: 3800px;
+    right: 0px;
+    margin-bottom: 500px;
+}
+
+.ACY-genre{
+    position: absolute;
+    width: 480px;
+    top: 8500px;
+    height: 1200px;
+    right: 0px;
+    margin-bottom: 500px;
+}
+  
+.text {
+    position: sticky;
+    color: #474747;
+    top: 48%;
+    font-size: 72px;
+    font-weight: 400;
+    font-style: normal;
+    transform: rotate(90deg);
+}

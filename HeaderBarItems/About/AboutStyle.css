@@ -1,0 +1,247 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  position: relative;
+  gap: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  text-wrap: wrap;
+}
+
+.Item{
+  position: absolute;
+  top: 100px;
+  left: 480px;
+  width: 900px;
+}
+
+.profile-image {
+  position: fixed;
+  top: 150px;
+  left: 100px;
+  max-width: 400px;
+  height: 520px;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+
+
+p {
+  font-size: 16px;
+  font-weight: 200;
+}
+
+h2 {
+  font-size: 56px;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+
+
+
+
+/* Profile */
+
+.profile {
+  width: 100%;
+}
+
+.profile > *:not(:last-child){
+  margin-bottom: 30px;
+}
+
+.Item img{
+  width: 380px;  /*ต้องเป็น % เพราะถ้าใช้ตัวอื่นจะไม่ float*/
+  height: 520px;
+  top: 20%;
+  left: 75px;
+  position: fixed;
+  border-radius: 20px;
+  background-size: cover;
+}
+
+
+
+.commendation{
+  font-style: italic;
+  margin-top: -30px;
+}
+
+
+
+/* Skill-Interested */
+
+.Skill-Interested {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  line-height: 1.6;
+  margin-bottom: 50px;
+}
+
+.Skill-Interested h2 {
+  margin-bottom: 10px;
+}
+
+.personal-data{
+  width: 44%;
+}
+
+.skill{
+  width: 28%;
+}
+
+.interested{
+  width: 28%;
+}
+
+#personal-data-container{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+#personal-data-container #title {
+  font-weight: 400;
+}
+
+#interested-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+
+
+
+/* Education */
+
+.education {
+  width: 100%;
+}
+
+.education > * > *:last-child{
+  margin-bottom: 30px;
+}
+
+.education > * > * {
+  clear: right;
+}
+
+.education > * h2 {
+  float: right;
+  margin-bottom: 10px;
+}
+
+#education-text {
+  float: left;
+}
+
+
+
+
+
+/* Transcription */
+
+.transcription {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-bottom: 50px;
+  padding-top: 20px;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.transcription img {
+  width: 200px;
+  height: 300px;
+  border-radius: 20px;
+  background-size: cover;
+  position: inherit;
+}
+
+#transcription-box{
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  width: 30%;
+  border-radius: 20px;
+
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+#transcription-box p {
+  margin: 10px;
+  display: block;
+}
+
+#transcription-box:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px #202020;
+}
+
+#transcription-box:active {
+  transition: 0.3s ease-in-out;
+  box-shadow: 0px 0px 31px #202020;
+}
+
+
+
+/* PopUp */
+
+.PopUp2{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #00000090;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  display: none;
+}
+
+.PopUp2 span{
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  background-size: cover;
+  color: #ebebeb;
+  background-image: url("../../Image/Icon/x-button.png");
+  cursor: pointer;
+  z-index: 100;
+}
+
+.PopUp2 img{
+  max-width: 1000px;
+  max-height: 650px;
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+
+
+

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+
+  
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width">
+  <title> Nuea Portfolio Website </title>
+  <link href="LittleHopeAndFirefly.css" rel="stylesheet"/>
+  <link href="../../../../HeaderBar.css" rel="stylesheet"/>
+  <link href="../../../WorkItem.css" rel="stylesheet"/>
+  <link href="../../../WorkItemPage.css" rel="stylesheet"/>
+  <link href="../../../../ImagePopUp.js" rel="stylesheet"/>
+  <link href="../../../../ImagePopUp.css" rel="stylesheet"/>
+
+</head>
+
+<body a link="#ebebeb" vlink="#ebebeb">
+
+<!-- Header -->
+
+<header class="header">
+  <a href="../../../../../index.html" class="logo"> NUEA </a>
+
+  <nav class="navbar">
+    <a href="../../../../../index.html"> Home </a>
+    <a class="active" href="../../../../Work/Work.html"> Work </a>
+    <a href="../../../../About/About.html"> About </a>
+    <a href="../../../../Contact/Contact.html"> Contact </a>
+  </nav>
+</header>
+
+
+
+  <!-- Body -->
+
+  
+
+  <div class="Container">
+
+    <nav class="work-genre">
+      <a id="work-genre-id" href="../../../Artwork/Artwork.html"> Artwork </a>
+      <a id="work-genre-id" href="../../../UX-UI/UX-UI.html"> UX/UI Design </a>
+      <a id="work-genre-id" href="../../../Coding/Coding.html"> Coding </a>
+      <a id="work-genre-id" href="../../../Photography/Photography.html"> Photography </a>
+      <a id="work-genre-id" href="../../../Activity/Activity.html"> Activity </a>
+      <a id="work-genre-id" href="../../../Certificates/Certificates.html"> Certificates </a>
+    </nav>
+
+    <div class="WE-Page">
+
+        <div class="work-intro">
+            <h1 class="name"> Hamster Village </h1>
+            <div class="description">
+              <p> Hamster Village &nbsp;เป็นเกมที่ผู้เล่นได้รับบทบาทในการป้องกันเมืองจากศัตรู &nbsp;ในสองรอบแรกผู้เล่นจะต้องไม่ให้ศัตรูโจมตีเมืองได้ &nbsp;เมื่อถึงตาที่&nbsp; 3 &nbsp;ผู้เล่นจะต้องกำจัดบอสโดยไม่ต้องป้องกันเมืองแล้ว </p>
+            </div>
+            <div class="work-d_intro">
+              <div class="gerne-wp">
+                <p> <strong> Genre : </strong> Coding, Game </p>
+              </div>
+              <div class="program">
+                <p> <strong> Program : </strong> VSCode, Unity </p>
+              </div>
+              <div class="technic">
+                <p> <strong> Technic : </strong> C# </p>
+              </div>
+              <div class="role">
+                <p> <strong> My role : </strong> Artist (UI Coding) </p>
+              </div>
+            </div>
+        </div>
+
+        <div class="work-explain">
+
+            <div class="work-explain-result">
+              <h4 class="result-text"> Result </h4>
+              <div class="example-video">
+                <video controls style="width: 100%;">
+                  <source src="../../../../../Image/WorkImage/CodingImage/HamsterVillage-Image/v.mp4" type="video/mp4">
+                </video>
+                <video controls style="width: 100%;">
+                  <source src="../../../../../Image/WorkImage/CodingImage/HamsterVillage-Image/v2.mp4" type="video/mp4">
+                </video>
+              </div>
+            </div>
+            
+            <div class="work-explain-progress">
+              <h4 class="result-text"> Progress </h4>
+
+              <div class="image-work-center"> 
+                <h6> Music </h6>
+                <div class="image-work-center"> 
+                  <div class="ex-image"> <img src="../../../../../Image/WorkImage/CodingImage/HamsterVillage-Image/MusicSetting.png"> </div>
+                  <p> 1. &nbsp;เป็นการสร้างตัวแปรเพื่อเก็บ AudioMixer ในการปรับแต่งเสียงในเกมเอาไว้ <br><br>
+                      2. &nbsp;ใช้ [SerializeField] เพื่อช่วยในการเก็บข้อมูลของเสียงเอาไว้ <br><br>
+                      3. &nbsp;จากนั้นทำฟังก์ชันรับข้อมูล สำหรับตั้งค่าเสียงต่างๆ โดยใช้สูตรการคำนวณเดซิเบล </p>
+                </div>
+                <h6> Change Scene </h6>
+                <div class="ex-image"> <img src="../../../../../Image/WorkImage/CodingImage/HamsterVillage-Image/ChangeScene.png"> </div>
+                  <p> 1. &nbsp;สร้างตัวแปรเลขของฉากและคลาสแม่แบบส่วนรวม(ใช้กับโค้ดอื่นๆได้) <br><br> 
+                      2. &nbsp;สร้างฟังก์ชันในการเปลี่ยนฉาก โดยเปลี่ยนฉากไปตามลำดับที่เลือก <br><br>
+                      3. &nbsp;สร้างฟังก์ชันออกจากเกม โดยใช้คำสั่ง Application.Quit(); <br><br> </p>
+                </div>
+                <h6> UI - Enemy Remaining </h6>
+                <div class="image-work-center"> 
+                  <div class="ex-image"> <img src="../../../../../Image/WorkImage/CodingImage/HamsterVillage-Image/InGame/EnemyLeft.png"> </div>
+                  <p> 1. &nbsp;เป็นการสร้างตัวแปรแบบส่วนตัวเพื่อเก็บ Text บนหน้า UI และจำนวนของศัตรู <br><br>
+                      2. &nbsp;เมื่อเริ่มเกม ศัตรูจะมีทั้งหมด 20 ตัว แล้วจะทำการ update ข้อมูลทุกๆวินาที <br><br>
+                      3. &nbsp;สร้างฟังก์ชันในการแสดงศัตรูที่เหลืออยู่ในเกม บนหน้า UI </p>
+                </div>
+                <h6> UI - Arrow Left </h6>
+                <div class="image-work-center"> 
+                  <div class="ex-image"> <img src="../../../../../Image/WorkImage/CodingImage/HamsterVillage-Image/InGame/Arrow.png"> </div>
+                  <p> 1. &nbsp;สร้างตัวแปรแบบส่วนตัวในการเก็บจำนวนของลูกธนู และ Text ส่วนของ UI ไว้ <br><br>
+                      2. &nbsp;สร้างฟังก์ชันแสดงข้อมูลของลูกธนูบนหน้าจอ และจะ update ข้อมูลทุกๆวินาที </p>
+                </div>
+                <h6> UI - Scoring </h6>
+                <div class="image-work-center"> 
+                  <div class="ex-image"> <img src="../../../../../Image/WorkImage/CodingImage/HamsterVillage-Image/InGame/Scoring1.png"> </div>
+                  <p> 1. &nbsp;กำหนดตัวแปรสำหรับส่วนของการแสดงผลหน้า UI และข้อมูลของคะแนน <br><br>
+                      2. &nbsp;เมื่อเริ่มเกมคะแนนจะปรับเป็น 0 และจะเรียกใช้ฟังก์ชันในการเช็คและแสดงคะแนนทุกๆวินาที </p>
+                  <div class="ex-image"> <img src="../../../../../Image/WorkImage/CodingImage/HamsterVillage-Image/InGame/Scoring2.png"> </div>
+                  <p> 3. &nbsp;สร้างฟังก์ชันในการแสดงคะแนน <br><br>
+                      4. &nbsp;สร้างฟังก์ชันในการเช็คคะแนน ถ้าคะแนนเพิ่มจะทำการเปลี่ยนคะแนนใหม่ <br><br>
+                      5. &nbsp;สร้างฟังก์ชันในการรีเซ็ตคะแนน </p>
+                </div>
+                <h6> UI - Count down and Wave </h6>
+                <div class="image-work-center"> 
+                  <div class="ex-image"> <img src="../../../../../Image/WorkImage/CodingImage/HamsterVillage-Image/InGame/CountDown1.png"> </div>
+                  <p> 1. &nbsp;สร้างตัวแปรในการเก็บเวลา รอบ และสถานะ </p>
+                  <div class="ex-image"> <img src="../../../../../Image/WorkImage/CodingImage/HamsterVillage-Image/InGame/CountDown2.png"> </div>
+                  <p> 2. &nbsp;ระบบจะ update ระบบเวลาและรอบทุกๆวินาที <br><br>
+                      3. &nbsp;หากเวลาเท่ากับ 0 จะทำการเริ่มรอบใหม่และให้เวลาพักระหว่างรอบสักครู่ <br><br>
+                      4. &nbsp;หากเวลาช่วงพักระหว่างเปลี่ยนรอบหมดลง จะทำการเริ่มรอบใหม่ <br><br>
+                      5. &nbsp;หากจำนวนรอบในปัจจุบันเท่ากับ 4 จะทำการเปลี่ยนฉากไปหน้าสรุปผล </p>
+                  <div class="ex-image"> <img src="../../../../../Image/WorkImage/CodingImage/HamsterVillage-Image/InGame/CountDown3.png"> </div>
+                  <p> 6. &nbsp;สร้างฟังก์ชันในการแสดงรอบ <br><br>
+                      7. &nbsp;สร้างฟังก์ชันในเปลี่ยนรอบ <br><br>
+                      8. &nbsp;สร้างฟังก์ชันในการเริ่มรอบ โดยเวลาจะลดลงและแสดงบนหน้า UI หากเวลาเหลือ 10 วินาที จะเปลี่ยนเป็น Text สีแดง </p>
+                  <div class="ex-image"> <img src="../../../../../Image/WorkImage/CodingImage/HamsterVillage-Image/InGame/CountDown4.png"> </div>
+                  <p> 9. &nbsp;สร้างฟังก์ชันในการพักระหว่างรอเริ่มรอบใหม่ โดยเวลาจะแสดงเป็นสีเขียว หากเวลาเท่ากับ 0 จะทำการเรื่มรอบใหม่ <br><br>
+                      10. &nbsp;สร้างฟังก์ชันในการส่งเลขรอบบนหน้าจอใหม่โดยให้รอเวลาพักหมดลง <br><br>
+                      11. &nbsp;สร้างฟังก์ชันส่งเลขในการเปลี่ยนรอบให้เพิ่มขึ้นมา 1 </p>
+                </div>
+                <h6> UI - HP </h6>
+                <div class="image-work-center"> 
+                  <div class="ex-image"> <img src="../../../../../Image/WorkImage/CodingImage/HamsterVillage-Image/InGame/Hp1.png"> </div>
+                  <p> 1. &nbsp;สร้างตัวแปรในการเก็บเลือดของเมือง ผู้เล่น สี ฉาก และเวลา </p>
+                  <div class="ex-image"> <img src="../../../../../Image/WorkImage/CodingImage/HamsterVillage-Image/InGame/Hp2.png"> </div>
+                  <p> 2. &nbsp;สร้างฟังก์ชันเลือดในรูปแบบเริ่มต้นและรูปแบบปัจจุบันของเมือง หากเลือดลดเหลือตามช่วงใดของค่าสี สีก็จะเปลี่ยนทันที </p>
+                  <div class="ex-image"> <img src="../../../../../Image/WorkImage/CodingImage/HamsterVillage-Image/InGame/Hp3.png"> </div>
+                  <p> 3. &nbsp;สร้างฟังก์ชันเลือดในรูปแบบเริ่มต้นและรูปแบบปัจจุบันของผู้เล่น หากเลือดลดเหลือตามช่วงใดของค่าสี สีก็จะเปลี่ยนทันที </p>
+                  <div class="ex-image"> <img src="../../../../../Image/WorkImage/CodingImage/HamsterVillage-Image/InGame/Hp4.png"> </div>
+                  <p> 4. &nbsp;เมื่อเริ่มเกม ผู้เล่นต้องปกป้องเมืองโดยเลือดของเมืองจะถูกแสดงเป็นหลัก <br><br>
+                      5. &nbsp;ในระหว่างเล่น เกมจะ update เลือดทุกๆวินาที <br><br>
+                      6. &nbsp;ขณะเล่น ถ้าเกิดเลือดน้อยกว่าหรือเท่ากับ 0 จะทำการเปลี่ยนไปฉากจบทันที <br><br>
+                      7. &nbsp;ขณะเล่น ถ้าเปลี่ยนเป็นรอบที่ 3 เลือดจะผู้สลับเป็นของผู้เล่น และหากผู้เล่นตาย ก็จะทำการเปลี่ยนไปฉากจบทันที </p>
+                </div>
+                <h6> UI - Pause Menu </h6>
+                <div class="image-work-center"> 
+                  <div class="ex-image"> <img src="../../../../../Image/WorkImage/CodingImage/HamsterVillage-Image/InGame/PauseMenu.png"> </div>
+                  <p> 1. &nbsp;สร้างตัวแปรในการเก็บหน้าต่างเมนู สถานะ เละฉาก <br><br>
+                      2. &nbsp;เริ่มเกมจะดำเนินตามปกติ เมื่อผู้เล่นกดปุ่ม Escape จะเรียกใช้เงื่อนไขดังนี้ <br>
+                      <br> &emsp;&emsp;&emsp; 2.1 &nbsp;หากค่าสถานะเป็น จริง ระบบจะสั่งใช้ฟังก์ชันกลับไปเป็นเหมือนเดิม 
+                      <br> &emsp;&emsp;&emsp;&emsp;&ensp;&nbsp; และจะปิดไม่ให้มองเห็น Cursor Mouse ได้ 
+                      <br> &emsp;&emsp;&emsp; 2.2 &nbsp;หากค่าสถานะเป็น เท็จ ระบบจะสั่งใช้ฟังก์ชันหยุด และจะเปิดให้มองเห็น Cursor Mouse ได้ </p>
+                  <div class="ex-image"> <img src="../../../../../Image/WorkImage/CodingImage/HamsterVillage-Image/InGame/PauseMenu_State.png"> </div>
+                  <p> 3. &nbsp;สร้างฟังก์ชันหยุดเกมชั่วคราว <br><br>
+                      4. &nbsp;สร้างฟังก์ชันหเล่นเกมต่อ </p>
+                  <div class="ex-image"> <img src="../../../../../Image/WorkImage/CodingImage/HamsterVillage-Image/InGame/PauseMenu_MusicMenu.png"> </div>
+                  <p> 5. &nbsp;สร้างฟังก์ชันเปิดหน้าต่างปรับแต่งเสียง </p>
+                  <div class="ex-image"> <img src="../../../../../Image/WorkImage/CodingImage/HamsterVillage-Image/InGame/PauseMenu_MusicMenuButton.png"> </div>
+                  <p> 6. &nbsp;สร้างฟังก์ชันออกจากหน้าปรับเสียงเพื่อกลับไปหน้าหยุดเกม <br><br>
+                      7. &nbsp;สร้างฟังก์ชันออกจากหน้าปรับเสียงเพื่อเล่นเกมต่อ </p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="example-link">
+          <h4> Link </h4>
+          <a href="https://github.com/ST2415/HamsterVillage_Only_Nuea_Script.git"> Code : Github (Click Here!) </a>
+        </div>
+
+        <div class="credit">
+          <h4> Credit </h4>
+          <a href="https://www.instagram.com/supakij_butter/"> IG : supakij_butter - Leader </a>
+          <a href="https://www.instagram.com/temm1e.noa/"> IG : temm1e.noa - Coding </a>
+          <a href="https://www.instagram.com/_nuea.stx3a/"> IG : _nuea.stx3a - Artist (Me) </a>
+        </div>
+
+    </div>
+
+  </div>
+
+
+
+  <div class="PopUp2">
+    <span></span>
+    <img src="../../../../../Image/Picture/Pic.png" alt="">
+  </div>
+
+  
+
+  <script src="../../../../ImagePopUp.js"></script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,272 @@
+/* For Team Work */
+
+.WE-Page{
+    position: absolute;
+    top: 130px;
+    left: 350px;
+    width: 800px;
+    text-wrap: wrap;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    font-weight: 200;
+}
+
+img {
+    width: 100%;
+}
+
+h4 {
+    font-size: 42px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+h6{
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+video {
+    width: 400px;
+    height: 100%;
+    display: block;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+
+
+
+/* Work Intro */
+
+.work-intro{
+    margin-bottom: 80px;
+}
+
+.work-intro h1{
+    font-size: 64px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.image-work img{
+    width: 100%;
+    display: block;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.work-intro strong{
+    font-weight: 400;
+}
+
+.work-intro .description{
+    margin-bottom: 25px;
+}
+
+.work-d_intro {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.result-text{
+    font-size: 48px;
+    font-weight: 400;
+}
+
+
+
+/* Work Explain */
+
+.work-explain-result{
+    padding-bottom: 80px;
+}
+
+.work-explain-progress{
+    margin-bottom: 80px;
+}
+
+.work-explain-result, .work-explain-progress > *{
+    margin-bottom: 20px;
+}
+
+.image-result{
+    margin-bottom: 50px;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-result img{
+    border-radius: 20px;
+}
+
+
+
+.idea{
+    font-size: 48px;
+    font-weight: 400;
+    right: 0px;
+}
+
+.ex-image{
+    border-radius: 20px;
+    margin-bottom: 50px;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.example-image{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.example-video{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+.image-work-left{
+    width: 100%;
+}
+
+.image-work-left .ex-image{
+    float: left;
+    width: 400px;
+    margin-right: 50px;
+}
+
+.image-work-left p{
+    margin: 50px;
+}
+
+
+
+.image-work-right{
+    width: 100%;
+}
+
+.image-work-right .ex-image{
+    float: right;
+    width: 400px;
+    right: 0px;
+}
+
+.image-work-right p{
+    float: left;
+    margin: 50px;
+}
+
+
+
+.image-work-center{
+    height: 100%;
+    width: 100%;
+    display:block;
+}
+
+.image-work-center p{
+    margin: 30px;
+}
+
+.image-work-center .ex-image{
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+.image-result, .ex-image {
+    height: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.image-result img, .ex-image img {
+    display:block;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    border-radius: 20px;
+}
+
+.image-result img:hover, .ex-image img:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+.idea-box{
+    padding-bottom: 50px;
+}
+
+
+
+.fullCode-item{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 80px;
+}
+
+
+
+.example-link{
+    margin-bottom: 80px;
+}
+
+.example-link a{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    font-weight: 300;
+}
+  
+.example-link a:hover{
+    color: #6c9cd0;
+}
+
+
+
+.credit{
+    margin-bottom: 50px;
+}
+
+.credit a{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    font-weight: 300;
+}
+  
+.credit a:hover{
+    color: #6c9cd0;
+}
+
+

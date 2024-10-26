@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+  
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width">
+  <title> Nuea Portfolio Website </title>
+  <link href="LittleHopeAndFirefly.css" rel="stylesheet"/>
+  <link href="../../../../HeaderBar.css" rel="stylesheet"/>
+  <link href="../../../WorkItem.css" rel="stylesheet"/>
+  <link href="../../../WorkItemPage.css" rel="stylesheet"/>
+  <link href="../../../../ImagePopUp.js" rel="stylesheet"/>
+  <link href="../../../../ImagePopUp.css" rel="stylesheet"/>
+
+</head>
+
+<body a link="#ebebeb" vlink="#ebebeb">
+
+<!-- Header -->
+
+<header class="header">
+  <a href="../../../../../index.html" class="logo"> NUEA </a>
+
+  <nav class="navbar">
+    <a href="../../../../../index.html"> Home </a>
+    <a href="../../../../Work/Work.html"> Work </a>
+    <a href="../../../../About/About.html"> About </a>
+    <a href="../../../../Contact/Contact.html"> Contact </a>
+  </nav>
+</header>
+
+
+
+  <!-- Body -->
+
+  
+
+  <div class="Container">
+
+    <nav class="work-genre">
+      <a id="work-genre-id" href="../../../Artwork/Artwork.html"> Artwork </a>
+      <a id="work-genre-id" href="../../../UX-UI/UX-UI.html"> UX/UI Design </a>
+      <a class="active" id="work-genre-id" href="../../../Coding/Coding.html"> Coding </a>
+      <a id="work-genre-id" href="../../../Photography/Photography.html"> Photography </a>
+      <a id="work-genre-id" href="../../../Activity/Activity.html"> Activity </a>
+      <a id="work-genre-id" href="../../../Certificates/Certificates.html"> Certificates </a>
+    </nav>
+
+    <div class="WE-Page">
+
+        <div class="work-intro">
+            <h1 class="name"> Mine Sweeper </h1>
+            <div class="description">
+              <p> เกมวัดดวงสุ่มขุดเหมืองแร่หลบระเบิด &nbsp;หากเราหลบได้ &nbsp;เลขที่อยู่รอบตัวเราจะบอกใบ้จำนวนระเบิดแถวนั้น &nbsp;เกมนี้เป็นเกมแรกที่หนูได้รับมอบหมายให้ช่วยกันกับทีม &nbsp;ค้นหาข้อมูลของเกมนี้จากเน็ตเพื่อที่จะนำมาทำความเข้าใจการทำงานของโค้ด </p>
+            </div>
+            <div class="work-d_intro">
+              <div class="gerne-wp">
+                <p> <strong> Genre : </strong> Coding, Game </p>
+              </div>
+              <div class="program">
+                <p> <strong> Program : </strong> Google Colab </p>
+              </div>
+              <div class="technic">
+                <p> <strong> Technic : </strong> Python </p>
+              </div>
+              <div class="role">
+                <p> <strong> My role : </strong> Resercher </p>
+              </div>
+            </div>
+        </div>
+
+        <div class="work-explain">
+
+            <div class="work-explain-result">
+              <h4 class="result-text"> Result </h4>
+              <div class="image-result"> <img src="../../../../../Image/WorkImage/CodingImage/MineSweeper-Image/MineSweeper_result.jpeg"></div>
+            </div>
+            
+            <div class="work-explain-progress">
+              <h4 class="result-text"> Progress </h4>
+
+              <div class="example-image">
+                <div class="image-work-center"> 
+                  <div class="ex-image"> <img src="../../../../../Image/WorkImage/CodingImage/MineSweeper-Image/1.jpeg"> </div>
+                  <p> 1. &nbsp;อันดับแรก เราจะทำการ import random มาเพื่อใช้ในการสุ่มจุดที่ระเบิดอยู่ <br><br>
+                      2. &nbsp;สร้างฟังก์ชันเช็คระเบิดแผนที่รอบๆตัว กำหนดให้ n คือขนาดของแผนที่(5x5) และ k คือจำนวนระเบิด <br><br>
+                      3. &nbsp;จากนั้นทำการสร้างแผนที่ขึ้นมาขนาด 5x5 และใส่ 0 ลงไปทุกช่อง (ยังไม่มีการใส่ระเบิด) <br><br>
+                      4. &nbsp;ใน for loop ถัดไปจะเป็นการเริ่มใส่ระเบิดลงไปตามจำนวนที่กำหนดไว้(10 ลูก) แทนระเบิดด้วยตัว X <br><br>
+                      5. &nbsp;ต่อไปคือการเช็คว่า หากมีระเบิดอยู่ในแปดทิศนี้จะแสดงจำนวนระเบิดที่อยู่รอบๆ <br><br>
+                      6. &nbsp;เมื่อเช็คเสร็จแล้วจะทำการส่งข้อมูลมาเขียนทับบนแผนที่ </p>
+                </div>
+                <div class="image-work-center"> 
+                  <div class="ex-image"> <img src="../../../../../Image/WorkImage/CodingImage/MineSweeper-Image/2.jpeg"> </div>
+                  <p> 7. &nbsp;PlayerMap จะทำหน้าที่ซ่อนข้อมูลไว้ ไม่ให้ผู้เล่นเห็นตำแหน่งต่างๆขณะเล่น <br><br>
+                      8. &nbsp;DisplayMap เป็นหน้าตาเกมในปัจจุบันที่ผู้เล่นเห็นเมื่อเริ่มเกมไปแล้ว <br><br> 
+                      9. &nbsp;DisplayWon เป็นฟังก์ชันในการเช็คแต่ละแถว หากทำการเปิดครบทุกช่องโดยไม่โดนระเบิด ผู้เล่นจะชนะทันที </p>
+                </div>
+                <div class="image-work-center"> 
+                  <div class="ex-image"> <img src="../../../../../Image/WorkImage/CodingImage/MineSweeper-Image/3.jpeg"> </div>
+                  <p> 10. &nbsp;เป็นฟังก์ชันแสดงคะแนนและกล่าวอำลากับผู้เล่น </p>
+                </div>
+                <div class="image-work-center"> 
+                  <div class="ex-image"> <img src="../../../../../Image/WorkImage/CodingImage/MineSweeper-Image/4.jpeg"> </div>
+                  <p> 11. &nbsp;กำหนดตัวแปรต่างๆในเกม </p>
+                </div>
+                <div class="image-work-center"> 
+                  <div class="ex-image"> <img src="../../../../../Image/WorkImage/CodingImage/MineSweeper-Image/5.jpeg"> </div>
+                  <p> 12. &nbsp;หากผู้เล่นยังไม่ชนะ เกมจะดำเนินการต่อไปเรื่อยๆ โดยจะมีช่องให้ใส่แกน x(แนวนอน) กับ y(แนวตั้ง) <br><br>
+                      13. &nbsp;ถ้าผู้เล่นทายโดนระเบิด เกมจะปรับแพ้ แล้วเฉลยกระดารแผนที่และทำการแจ้งคะแนนทันที <br><br> 
+                      14. &nbsp;ถ้าผู้เล่นเปิดไม่เจอระเบิด เกมจะยังดำเนินต่อไปเพื่อสะสมคะแนนในการหลบระเบิดต่อไป <br><br> 
+                      15. &nbsp;แต่ถ้าหากผู้เล่นไม่โดนระเบิดเลย เกมจะปรับให้ชนะทันทีพร้อมแจ้งคะแนน <br><br> 
+                      16. &nbsp;ทำการเรียกใช้งานฟังก์ชั่นเกม เพื่อเริ่มเล่น </p>
+                </div>
+              </div>
+
+              <div class="fullCode">
+                <h4> Full Code </h4>
+                <div class="fullCode-item">
+                  <div class="image-work-center"> 
+                    <div class="ex-image"> <img src="../../../../../Image/WorkImage/CodingImage/MineSweeper-Image/1.jpeg"> </div>
+                  </div>
+                  <div class="image-work-center"> 
+                    <div class="ex-image"> <img src="../../../../../Image/WorkImage/CodingImage/MineSweeper-Image/fullCode2.jpeg"> </div>
+                  </div>
+                  <div class="image-work-center"> 
+                    <div class="ex-image"> <img src="../../../../../Image/WorkImage/CodingImage/MineSweeper-Image/fullCode3.jpeg"> </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+        </div>
+
+        <div class="example-link">
+          <h4> Link </h4>
+          <a href="https://colab.research.google.com/drive/1xXTpLEy6Z1Mzsif91nKMi72oYA2pMFmW?usp=sharing"> Code : Google Colab (Click Here!) </a>
+        </div>
+
+        <div class="credit">
+          <h4> Credit </h4>
+          <a href="https://www.instagram.com/k_xtpn/"> IG : k_xtpn - Coding </a>
+          <a href="https://www.instagram.com/irinbear_/"> IG : irinbear_ - Resercher </a>
+          <a href="https://www.instagram.com/_nuea.stx3a/"> IG : _nuea.stx3a - Resercher (Me) </a>
+        </div>
+
+    </div>
+
+  </div>
+
+
+
+  <div class="PopUp2">
+    <span></span>
+    <img src="../../../../../Image/Picture/Pic.png" alt="">
+  </div>
+
+  
+
+  <script src="../../../../ImagePopUp.js"></script>
+
+
+
+</body>
+</html>

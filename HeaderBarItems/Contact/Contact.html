@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+  
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width">
+  <title> Nuea Portfolio Website </title>
+  <link href="ContactStyle.css" rel="stylesheet"/>
+  <link href="../HeaderBar.css" rel="stylesheet"/>
+</head>
+
+<body>
+
+<!-- Header -->
+
+  <header class="header">
+    <a href="../../index.html" class="logo"> NUEA </a>
+
+    <nav class="navbar">
+      <a href="../../index.html"> Home </a>
+      <a href="../Work/Work.html"> Work </a>
+      <a href="../About/About.html"> About </a>
+      <a href="Contact.html" class="active"> Contact </a>
+    </nav>
+  </header>
+
+
+  
+<!-- Body -->
+
+  <!-- Left Side -->
+  
+  <div class="Contact-Left">
+    <div class="Container">
+      <div class="Email">
+        <p id="Parent"> Email </p>
+        <p id="Child"> GoldBon2018@gmail.com </p>
+      </div>
+
+      <a href="https://www.facebook.com/Akimoto.NN.Nuea/"> <div class="Facebook">
+        <p id="Parent"> Facebook </p>
+        <p id="Child"> อัจฉราพร ไชยลังกา </p>
+      </div> </a>
+
+      <a href="https://www.instagram.com/_nuea.stx3a/"> <div class="Instragram">
+        <p id="Parent"> Instragram </p>
+        <p id="Child"> _nuea.stx3a </p>
+      </div> </a>
+
+      <div class="Phonenumber">
+        <p id="Parent"> Phonenumber </p>
+        <p id="Child"> 065 297 3165 </p>
+      </div>
+    </div>
+
+    <!-- Right Side -->
+
+    <div class="Contact-Right">
+      
+      <form action="https://formspree.io/f/xkgwlbao" method="POST" class="Form">
+        
+         <input type="hidden" name="access_key" value="4780f07e-6c0e-4ac8-9d92-b0bfeac46817">
+        
+        <h2> Contact </h2>
+        <hr>
+        <div class="Input-Box">
+          <input type="text" name="Firstname" placeholder="First Name" class="name-box" id="contact-input" required>
+          <input type="text" name="Lastname" placeholder="Last Name" class="name-box" id="contact-input" required>
+          <input type="text" name="Email" placeholder="Email Address" class="email-box" id="contact-input" required>
+          <textarea type="text" name="Message" placeholder="Leave me a message..." class="message-box" id="contact-input" required> </textarea>
+          <button type="submit" id="contact-summit"> Submit </button>
+        </div>
+      </form>
+    </div>
+  </div>
+  
+</body>
+</html>

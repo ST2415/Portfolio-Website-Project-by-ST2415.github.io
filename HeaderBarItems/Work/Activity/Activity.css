@@ -1,0 +1,95 @@
+.Container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.activity {
+    position: absolute;
+    width: 800px;
+    left: 350px;
+    top: 150px;
+    padding-bottom: 50px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+  
+.activity img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    background-size: cover;
+    position: inherit;
+}
+  
+#activity-box{
+    max-width: 33%;
+    height: auto;
+    text-align: center;
+    vertical-align: top;
+    position: relative;
+  
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+  
+#activity-box p {
+    margin: 10px;
+    display: block;
+}
+  
+#activity-box:hover {
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0px 0px 30px #121212;
+}
+
+
+
+/* PopUp */
+
+.PopUp2{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #00000090;
+    z-index: 100;
+    display: none;
+  }
+  
+.PopUp2 span{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background-size: cover;
+    color: #ebebeb;
+    background-image: url("../../../Image/Icon/x-button.png");
+    cursor: pointer;
+    z-index: 100;
+}
+  
+.PopUp2 img{
+    max-width: 1000px;
+    max-height: 650px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+  
+
+  
+  

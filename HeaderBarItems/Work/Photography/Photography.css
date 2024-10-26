@@ -1,0 +1,46 @@
+.Container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Picture {
+    position: absolute;
+    width: 800px;
+    left: 350px;
+    top: 150px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    gap: 50px;
+}
+  
+.image img {
+    width: 100%;
+    height: auto;
+}
+  
+#pic-box{
+    max-width: 350px;
+    max-height: 550px;
+    border-radius: 20px;
+  
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    overflow: hidden;
+}
+  
+#pic-box:hover {
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 30px #121212;
+}
+
+
+
+
